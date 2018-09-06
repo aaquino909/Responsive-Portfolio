@@ -1,0 +1,274 @@
+html,body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14;
+    background-image: url("./images/grayBackground.jpg");
+    background-repeat: repeat-y;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.wrapper {
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto -100px;
+  }
+.container{
+    margin: auto;
+    width: 960px;
+}
+#topBar {
+    position: fixed;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+}
+.spacer{
+    background-color: transparent;
+    height:150px;
+}
+#nameBanner  {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+}
+.topnav {
+    background-color: transparent;
+    padding-top: 26px;
+    height: 21px;
+    width: 34%;
+    float: right;
+    text-align: right;
+    font-size: 21px;
+    text-decoration: none;
+    color: #666666;
+}
+.aboutMeContainer{
+    float: left;
+    width: 100%;
+    padding: 10px;
+    background: #fff;
+}
+img{
+    padding:10px ;
+    float: left;
+}
+
+.aboutMeTitle {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-weight: 700;
+    color: #4aaaa5;  
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #928f8f;
+    position: fixed;
+    height: 55px;
+    border-top: 5px solid #4aaaa5;
+    bottom: 0;
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+}
+.topnav a {
+    float: left;
+    color: #666666;
+    padding: 0px 5px;
+    text-decoration: none;
+    font-size: 17px;
+} 
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Portfolio Wrapper */
+.wrapperA {
+    background-color: #ffffff;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    display: inline-block;
+}
+.photo {
+    font-size: 50px;
+    background-color: transparent;
+    width: 46%;
+    height: 218px;
+    float: left;
+}
+.photo2 {
+    font-size: 50px;
+    background-color: transparent;
+    width: 50%;
+    height: 218px;
+    float: right;
+}
+.photo3 {
+    font-size: 50px;
+    background-color: transparent;
+    width: 50%;
+    height: 218px;
+    float: left;
+}
+.photo4 {
+    font-size: 50px;
+    background-color: transparent;
+    width: 50%;
+    height: 218px;
+    float: right;
+}
+.photo5 {
+    font-size: 50px;
+    background-color: transparent;
+    width: 50%;
+    height: 218px;
+    float: left;
+}
+.caption {
+    background-color: #4aaaa5;
+    height: 33px;
+    width: 200px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 19px;
+    margin-top: 143px;
+    color: #ffffff;
+}
+/* INPUT FORM */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+
+/* Add a background color and some padding around the form */
+.containerB {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  /* MEDIA QUERIES */
+  @media only screen and (max-width: 980px) {
+    .container {
+      max-width: 768px;
+      padding: 0 20px;
+    }
+    .aboutMeContainer {
+      max-width: 768px;
+    }
+    main {
+        overflow: auto;
+      }
+    
+  }
+
+  @media only screen and (max-width: 768px) {
+    .container{
+        max-width: 70%;
+    }
+    main {
+        overflow: auto;
+      }
+  }  
+  @media only screen and (max-width: 640px) {
+    #nameBanner{
+        max-width: 100%;
+    }
+    #topBar{
+        position: static;
+        margin-bottom: 20px;
+    }
+    .topnav{
+    width: 100%;
+    text-align: center;
+      }
+    .spacer{
+        height: 10px;
+    }
+
+     header .container {
+    padding: 0;
+    }
+
+    main.container {
+    padding-top: 0;
+  }
+  }
