@@ -81,14 +81,12 @@ img{
 
 footer{
     background-color: #928f8f;
-    position: fixed;
-    height: 55px;
+    clear: both;
     border-top: 5px solid #4aaaa5;
-    bottom: 0;
-    width: 100%;
-    padding: 3px;
+    padding: 30px 0;
     text-align: center;
 }
+
 .topnav a {
     float: left;
     color: #666666;
